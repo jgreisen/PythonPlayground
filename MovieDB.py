@@ -1,3 +1,5 @@
+# Adding a comment
+
 class Movie:
   def __init__(self, title, rating):
     self.title = title
