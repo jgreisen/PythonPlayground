@@ -7,7 +7,7 @@ class Movie:
 
 movieDB = []
 
-def addJaws(Movie):
+def addMovie(Movie):
   movieDB.append(Movie)
 
 def printMovies(list):
@@ -20,7 +20,7 @@ movieDB.append(Movie("John Wick", "R"))
 printMovies(movieDB)
 
 print('Adding Jaws to our movie database via function...')
-addJaws(Movie("Jaws", "R"))
+addMovie(Movie("Jaws", "R"))
 printMovies(movieDB)
 
 print('Add a new movie to our database!')
